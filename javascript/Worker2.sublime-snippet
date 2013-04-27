@@ -1,0 +1,72 @@
+<snippet>
+	<content><![CDATA[
+define(['jquery', 'app/job'], function(\$, Job) {
+	var ${1:Name}Worker = function ${1:Name}Worker() {},
+
+	prototype = {
+		create: function(data) {
+			var self = this;
+
+			\$.ajax({
+				url: 'Services/index.php/${2}',
+				dataType: 'json',
+				type: 'POST',
+				data: JSON.stringify(data)
+			}).complete(function(e) {
+				var response = JSON.parse(e.responseText);
+			});
+
+			return self;
+		},
+
+		read: function() {
+			var self = this;
+
+			\$.ajax({
+				url: 'Services/index.php/${3}',
+				dataType: 'json'
+			}).complete(function(e) {
+				var response = JSON.parse(e.responseText);
+			});
+
+			return self;
+		},
+
+		update: function(data) {
+			var self = this;
+
+			\$.ajax({
+				url: 'Services/index.php/${4}',
+				dataType: 'json',
+				type: 'POST',
+				data: JSON.stringfy(data)
+			}).complete(function(e) {
+				var response = JSON.parse(e.responseText);
+			});
+
+			return self;
+		},
+
+		destroy: function(data) {
+			var self = this;
+
+			\$.ajax({
+				url: 'Services/index.php/${5}',
+				dataType: 'json'
+				type: 'POST',
+			}).complete(function(e) {
+				var response = JSON.parse(e.responseText);
+			});
+
+			return self;
+		}
+	};
+
+	${1:Name}Worker.prototype = \$.extend({}, new Job(), prototype);
+	${1:Name}Worker.prototype.constructor = ${1:Name}Worker;
+
+	return ${1:Name}Worker;
+});
+]]></content>
+	<tabTrigger>Worker (long)</tabTrigger>
+</snippet>

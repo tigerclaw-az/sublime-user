@@ -1,0 +1,28 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Browser Refresh",
+		"BufferScroll",
+		"CSSLint",
+		"DocBlockr",
+		"Emmet",
+		"FileDiffs",
+		"Git",
+		"Goto Documentation",
+		"HTML Snippets",
+		"JsFormat",
+		"JSHint",
+		"Package Control",
+		"PhpBeautifier",
+		"PhpTidy",
+		"Pretty JSON",
+		"SFTP",
+		"SideBarEnhancements",
+		"Sublime-JSHint",
+		"SublimeLinter",
+		"SVN",
+		"Theme - Soda",
+		"Xdebug"
+	]
+}

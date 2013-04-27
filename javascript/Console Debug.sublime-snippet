@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+console.debug('${1:description}', ${2:expression});
+]]></content>
+	<tabTrigger>debug</tabTrigger>
+</snippet>

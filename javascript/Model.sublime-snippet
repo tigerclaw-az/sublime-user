@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+// Model
+define(['jquery', 'app/model'], function(\$, Model) {
+	var ${1:ModelName} = function ${1:ModelName}Record(data) {
+		data = data || {};
+
+		// Owned properties
+		this.${2:property} = data.${2:property} || null;
+	},
+
+	prototype = {
+		// Change event methods
+		change${3:Property}: function(${4}) {
+			${5}
+		}${6}
+	};
+
+	${1:ModelName}.prototype = \$.extend({}, new Model(), prototype);
+	${1:ModelName}.prototype.constructor = ${1:ModelName};
+
+	return ${1:ModelName};
+});
+]]></content>
+	<tabTrigger>Model</tabTrigger>
+</snippet>

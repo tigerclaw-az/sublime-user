@@ -1,0 +1,23 @@
+<!--
+    php-printr
+        Insert a debug statement for arrays.
+
+    HOW TO USE
+        In your PHP class, simply type the following:
+
+            php-printr<TAB>
+
+        Sublime Text will add the comment for you.  Then use <TAB> to
+        replace 'array' with your array.
+-->
+<snippet>
+    <content><![CDATA[
+echo "${1:array}:".print_r(\$${2:array},true);
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>php-printr</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Print an array for debugging.</description>
+</snippet>

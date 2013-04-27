@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+define(['jquery', 'app/job'], function(\$, Job) {
+	var ${1:Name}Worker = function ${1:Name}Worker() {},
+
+	prototype = {${2}};
+
+	${1:Name}Worker.prototype = \$.extend({}, new Job(), prototype);
+	${1:Name}Worker.prototype.constructor = ${1:Name}Worker;
+
+	return ${1:Name}Worker;
+});
+]]></content>
+	<tabTrigger>Worker</tabTrigger>
+</snippet>

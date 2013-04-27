@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+get: function() {
+	${1}
+},
+]]></content>
+	<tabTrigger>getter</tabTrigger>
+</snippet>

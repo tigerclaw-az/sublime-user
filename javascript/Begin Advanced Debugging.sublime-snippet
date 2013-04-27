@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+console.beginDebugging(${2});${1}
+]]></content>
+	<tabTrigger>beginDebugging</tabTrigger>
+</snippet>

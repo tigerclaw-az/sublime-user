@@ -1,0 +1,21 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+	"detect_indentation": false,
+	"detect_slow_plugins": false,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"font_size": 9,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"jsdocs_align_tags": "no",
+	"jsdocs_extend_double_slash": false,
+	"save_on_focus_lost": true,
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true
+}
