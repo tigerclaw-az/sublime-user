@@ -3,4 +3,12 @@ sublime-user
 
 My Sublime Text 2 User settings
 
-import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')
+1. Install Package Control: https://sublime.wbond.net/installation
+2. Open a terminal window
+3. Navigate to appropriate folder:
+   * OSX: ~/Library/Application Support/Sublime Text 3/Packages
+   * Linux: ~/.config/sublime-text-3/Packages
+   * Windows: %APPDATA%\Sublime Text 3/Packages
+4. > mv User User.BAK
+5. > git clone https://github.com/ejwaibel/sublime-user
+6. Open Sublime Text
