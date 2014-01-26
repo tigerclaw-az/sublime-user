@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": null,
+	"auto_upgrade_last_run": true,
 	"installed_packages":
 	[
 		"BufferScroll",
@@ -12,18 +12,13 @@
 		"HTML Snippets",
 		"JsFormat",
 		"Package Control",
-		"PhpBeautifier",
 		"Phpcs",
 		"PhpTidy",
 		"Pretty JSON",
-		"SFTP",
 		"SideBarGit",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SVN",
 		"SyntaxChecker",
-		"Theme - Phoenix",
 		"Theme - Soda",
-		"Xdebug"
 	]
 }

@@ -1,8 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
-	"theme": "Phoenix Dark.sublime-theme",
-	"phoenix_color_green": true,
-	"phoenix_highlight_current_tab": true,
+	"color_scheme": "Packages/User/Sunburst (SL).tmTheme",
 	"csslint_options":
 	{
 		"adjoining-classes": false,
@@ -74,7 +71,7 @@
 		"unused": false,
 		"white": false
 	},
-	"save_on_focus_lost": true,
+	"save_on_focus_lost": false,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true
