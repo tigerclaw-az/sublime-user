@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": true,
 	"installed_packages":
 	[
+		"Autoprefixer",
 		"BufferScroll",
 		"CSSLint",
 		"DocBlockr",
@@ -19,6 +20,6 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SyntaxChecker",
-		"Theme - Soda",
+		"Theme - Soda"
 	]
 }
