@@ -9,6 +9,6 @@ My Sublime Text 2 User settings
    * OSX: ~/Library/Application Support/Sublime Text 3/Packages
    * Linux: ~/.config/sublime-text-3/Packages
    * Windows: %APPDATA%\Sublime Text 3/Packages
-4. > mv User User.BAK
-5. > git clone https://github.com/ejwaibel/sublime-user
+4. `mv User User.BAK`
+5. `git clone https://github.com/ejwaibel/sublime-user User`
 6. Open Sublime Text
