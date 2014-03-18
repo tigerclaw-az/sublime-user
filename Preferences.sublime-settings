@@ -1,5 +1,6 @@
 {
-	"color_scheme": "Packages/User/Sunburst (SL).tmTheme",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
 	"csslint_options":
 	{
 		"adjoining-classes": false,
@@ -34,11 +35,12 @@
 		"vendor-prefix": true,
 		"zero-units": "warning"
 	},
+	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"detect_slow_plugins": false,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
-	"font_size": 9,
+	"font_size": 11.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -49,29 +51,50 @@
 	"jsdocs_extend_double_slash": false,
 	"jshint_options":
 	{
+		"-W015": true,
+		"-W093": true,
 		"browser": true,
 		"curly": false,
 		"dojo": true,
 		"eqeqeq": true,
 		"eqnull": false,
 		"evil": false,
+		"globals":
+		{
+			"console": true,
+			"document": true,
+			"jQuery": true,
+			"module": true
+		},
 		"immed": true,
+		"indent": 4,
 		"jquery": true,
 		"latedef": true,
 		"loopfunc": true,
-		"newcap": true,
+		"newcap": false,
 		"node": true,
 		"onecase": true,
-		"onevar": true,
 		"quotmark": "single",
 		"smarttabs": true,
 		"strict": false,
 		"trailing": false,
 		"undef": false,
-		"unused": false,
-		"white": false
+		"unused": false
 	},
-	"save_on_focus_lost": false,
+	"phoenix_color_blue": true,
+	"phoenix_highlight_current_tab": true,
+	"sublimelinter": "save-only",
+	"sublimelinter_disable":
+	[
+		"php"
+	],
+	"sublimelinter_executable_map":
+	{
+		"css": "/usr/local/bin/node",
+		"javascript": "/usr/local/bin/node",
+		"php": "/usr/local/php5/bin/php"
+	},
+	"sublimelinter_gutter_marks": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true

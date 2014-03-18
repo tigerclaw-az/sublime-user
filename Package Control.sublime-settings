@@ -1,25 +1,23 @@
 {
-	"auto_upgrade_last_run": true,
 	"installed_packages":
 	[
-		"Autoprefixer",
+		"Alignment",
 		"BufferScroll",
-		"CSSLint",
+		"CoffeeScript",
 		"DocBlockr",
 		"Emmet",
-		"FileDiffs",
 		"Git",
-		"Goto Documentation",
-		"HTML Snippets",
-		"JsFormat",
+		"GitGutter",
+		"HtmlTidy",
+		"JSHint",
+		"JSHint Gutter",
 		"Package Control",
 		"Phpcs",
-		"PhpTidy",
 		"Pretty JSON",
 		"SideBarGit",
 		"SublimeCodeIntel",
-		"SublimeLinter",
 		"SyntaxChecker",
+		"Theme - Phoenix",
 		"Theme - Soda"
 	]
 }

@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[
+define([
+	'jquery', 'app/core', 'app/dictionary',
+	'path.min'
+], function(\$, enl, mappings) {
+	Path.map('#!/${1:route}').enter(function() {
+		// Only required if this route has an associated tab
+		\$('.${2:class}').addClass('selected-tab');
+		\$('#${3:id}').removeClass('ui-helper-hidden-accessible');
+	}).to(function() {
+		enl.settings.view = '${4:view}';
+		enl.settings.hash = window.location.hash;
+
+		// Add main route functionality here
+		require([
+			// workers?
+
+			// templates?
+
+			// required for every view
+			'widget/cpim/favorites', 'widget/cpim/quicksearch',
+			'widget/cpim/systeminfo',
+
+			// $4 view
+			???
+		], function() {
+			\$('#cont-fav').favorites();
+			\$('.system-info').systeminfo();
+			\$('#cont-search').quicksearch();
+		});
+	}).exit(function() {
+		// Only required if this route has an associated tab
+		\$('.$2').removeClass('selected-tab');
+		\$('#$3').addClass('ui-helper-hidden-accessible');
+
+		// Add route exit functionality here
+	});
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>route</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.javascript</scope> -->
+</snippet>

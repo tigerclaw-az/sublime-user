@@ -1,11 +1,5 @@
 [
 	{ "keys": ["f1"], "command": "goto_documentation" },
-	 {
-        "keys": ["command+shift+r"], "command": "browser_refresh", "args": {
-            "auto_save": true,
-            "delay": 0.8,
-            "activate_browser": true,
-            "browser_name" : "Chrome Canary"
-        }
-    }
+    { "keys": ["ctrl+shift+'"], "command": "change_quotes" },
+    { "keys": ["ctrl+shift+r"], "command": "reindent", "args": {"single_line": false}}
 ]
