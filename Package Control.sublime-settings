@@ -2,8 +2,10 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Autoprefixer",
 		"BufferScroll",
 		"CoffeeScript",
+		"CSSLint",
 		"DocBlockr",
 		"Emmet",
 		"Git",
@@ -16,6 +18,7 @@
 		"Pretty JSON",
 		"SideBarGit",
 		"SublimeCodeIntel",
+		"SublimeLinter",
 		"SyntaxChecker",
 		"Theme - Phoenix",
 		"Theme - Soda"
