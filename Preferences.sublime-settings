@@ -9,8 +9,10 @@
 	"font_size": 11.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"phoenix_color_blue": true,
-	"phoenix_highlight_current_tab": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true

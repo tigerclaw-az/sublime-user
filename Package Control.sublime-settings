@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Autoprefixer",
 		"BufferScroll",
 		"DocBlockr",
 		"Emmet",
@@ -19,7 +20,6 @@
 		"SublimeLinter",
 		"SublimeLinter-csslint",
 		"SublimeLinter-jshint",
-		"Theme - Phoenix",
 		"Theme - Soda"
 	]
 }
