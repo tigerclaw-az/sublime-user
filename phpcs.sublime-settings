@@ -1,0 +1,17 @@
+{
+	"phpcs_executable_path": "/usr/local/php5/bin/phpcs",
+	// Execute the sniffer on file save
+    "phpcs_execute_on_save": true,
+
+    // Show the error list after save.
+    "phpcs_show_errors_on_save": false,
+
+    // Show outline for errors
+    "phpcs_outline_for_errors": false,
+
+	// Are we going to run php -l over the file?
+    "phpcs_linter_run": false,
+
+    // Execute the linter on file save
+    "phpcs_linter_command_on_save": false,
+}
