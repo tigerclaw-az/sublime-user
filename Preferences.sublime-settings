@@ -1,40 +1,6 @@
 {
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
-	"csslint_options":
-	{
-		"adjoining-classes": false,
-		"box-model": true,
-		"box-sizing": false,
-		"compatible-vendor-prefixes": "warning",
-		"display-property-grouping": true,
-		"duplicate-background-images": "warning",
-		"duplicate-properties": true,
-		"empty-rules": false,
-		"errors": true,
-		"fallback-colors": "warning",
-		"floats": "warning",
-		"font-faces": "warning",
-		"font-sizes": "warning",
-		"gradients": "warning",
-		"ids": false,
-		"import": "warning",
-		"important": false,
-		"known-properties": true,
-		"outline-none": "warning",
-		"overqualified-elements": "warning",
-		"qualified-headings": "warning",
-		"regex-selectors": "warning",
-		"rules-count": "warning",
-		"shorthand": false,
-		"star-property-hack": "warning",
-		"text-indent": "warning",
-		"underscore-property-hack": "warning",
-		"unique-headings": "warning",
-		"universal-selector": "warning",
-		"vendor-prefix": true,
-		"zero-units": "warning"
-	},
+	"color_scheme": "Packages/User/Sunburst (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"detect_slow_plugins": false,
@@ -43,61 +9,8 @@
 	"font_size": 11.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"SublimeLinter",
-		"Vintage"
-	],
-	"jsdocs_align_tags": "no",
-	"jsdocs_extend_double_slash": false,
-	"jshint_options":
-	{
-		"-W015": true,
-		"-W044": true,
-		"-W086": true,
-		"-W093": true,
-		"browser": true,
-		"curly": false,
-		"dojo": true,
-		"eqeqeq": true,
-		"eqnull": false,
-		"evil": false,
-		"globals":
-		{
-			"console": true,
-			"document": true,
-			"jQuery": true,
-			"module": true
-		},
-		"immed": true,
-		"indent": 4,
-		"jquery": true,
-		"latedef": true,
-		"loopfunc": true,
-		"newcap": false,
-		"node": true,
-		"onecase": true,
-		"quotmark": "single",
-		"smarttabs": true,
-		"strict": false,
-		"trailing": false,
-		"undef": false,
-		"unused": true
-	},
 	"phoenix_color_blue": true,
 	"phoenix_highlight_current_tab": true,
-	"sublimelinter": "save-only",
-	"sublimelinter_disable":
-	[
-		"php"
-	],
-	"sublimelinter_executable_map":
-	{
-		"css": "/usr/local/bin/node",
-		"javascript": "/usr/local/bin/node",
-		"php": "/usr/local/php5/bin/php"
-	},
-	"sublimelinter_gutter_marks": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true
