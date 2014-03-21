@@ -45,6 +45,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"SublimeLinter",
 		"Vintage"
 	],
 	"jsdocs_align_tags": "no",
@@ -52,6 +53,8 @@
 	"jshint_options":
 	{
 		"-W015": true,
+		"-W044": true,
+		"-W086": true,
 		"-W093": true,
 		"browser": true,
 		"curly": false,
@@ -79,7 +82,7 @@
 		"strict": false,
 		"trailing": false,
 		"undef": false,
-		"unused": false
+		"unused": true
 	},
 	"phoenix_color_blue": true,
 	"phoenix_highlight_current_tab": true,
