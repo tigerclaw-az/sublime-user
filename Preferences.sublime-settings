@@ -13,7 +13,10 @@
 	[
 		"Vintage"
 	],
+	"phoenix_color_darkblue": true,
+	"phoenix_highlight_current_tab": true,
 	"tab_size": 4,
+	"theme": "Phoenix Dark.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true
 }
