@@ -3,6 +3,7 @@
 	[
 		"Alignment",
 		"Autoprefixer",
+		"BracketHighlighter",
 		"BufferScroll",
 		"DocBlockr",
 		"Emmet",
@@ -16,6 +17,7 @@
 		"PHP Modern",
 		"PhpDoc",
 		"Pretty JSON",
+		"SideBarEnhancements",
 		"SideBarGit",
 		"SublimeCodeIntel",
 		"SublimeLinter",
