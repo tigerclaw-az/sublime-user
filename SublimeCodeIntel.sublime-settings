@@ -1,0 +1,24 @@
+{
+	/* Disable Sublime Text autocomplete: */
+    "codeintel_live": false,
+
+    /*
+        Tooltips method:
+
+        "popup" - Uses Autocomplete popup for tooltips.
+        "panel" - Uses the output panel for tooltips.
+        "status" - Uses the status bar for tooltips (was the default).
+    */
+    "codeintel_tooltips": "status",
+
+    /*
+        Defines a configuration for each language.
+    */
+    "codeintel_config": {
+    	"PHP": {
+            "phpExtraPaths": [],
+            "codeintel_scan_files_in_project": true,
+            "codeintel_max_recursive_dir_depth": 3
+        }
+    }
+}
