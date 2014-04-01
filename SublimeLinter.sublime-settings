@@ -8,7 +8,7 @@
         "lint_mode": "save-only",
         "linters": {
             "csslint": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "errors": "",
                 "excludes": [],
@@ -16,6 +16,11 @@
                 "warnings": ""
             },
             "jshint": {
+                "@disable": false,
+                "args": [],
+                "excludes": ["*/grunt/*.js"]
+            },
+            "php": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
