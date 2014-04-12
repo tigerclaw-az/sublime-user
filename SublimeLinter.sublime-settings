@@ -8,7 +8,7 @@
         "lint_mode": "save-only",
         "linters": {
             "csslint": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "errors": "",
                 "excludes": [],
