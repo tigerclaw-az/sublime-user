@@ -18,6 +18,11 @@
             "jshint": {
                 "@disable": false,
                 "args": [],
+                "excludes": ["*/grunt/*.js"]
+            },
+            "php": {
+                "@disable": false,
+                "args": [],
                 "excludes": []
             }
         },
