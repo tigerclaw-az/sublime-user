@@ -22,8 +22,6 @@
 		"SideBarGit",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeLinter-csslint",
-		"SublimeLinter-jshint",
-		"Theme - Soda"
+		"Theme - Phoenix"
 	]
 }
