@@ -1,22 +1,32 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
 		"Autoprefixer",
 		"BracketHighlighter",
 		"BufferScroll",
+		"Color Highlighter",
+		"ColorPicker",
 		"DocBlockr",
 		"Emmet",
 		"FileDiffs",
 		"Gist",
 		"Git",
 		"GitGutter",
-		"Goto Documentation",
+		"Grunt",
+		"HTML-CSS-JS Prettify",
+		"Javatar",
 		"JsFormat",
+		"LESS",
+		"Markdown Preview",
 		"Package Control",
 		"PHP Modern",
 		"PhpDoc",
 		"Pretty JSON",
+		"Sass",
 		"SFTP",
 		"SideBarEnhancements",
 		"SideBarGit",

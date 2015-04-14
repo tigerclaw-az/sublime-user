@@ -1,4 +1,4 @@
 *.cache
 *.last-run
 *.tmTheme
-Gist.sublime-settings
+*-ca-bundle
