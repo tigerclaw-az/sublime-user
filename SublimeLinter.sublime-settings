@@ -1,7 +1,7 @@
 {
     "user": {
         "debug": false,
-        "delay": 0.25,
+        "delay": 0.50,
         "error_color": "D02000",
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Knob/simple/Knob - simple.gutter-theme",
         "gutter_theme_excludes": [],
@@ -14,6 +14,11 @@
                 "excludes": [],
                 "ignore": "",
                 "warnings": ""
+            },
+            "jscs": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
             },
             "jshint": {
                 "@disable": false,
@@ -30,7 +35,7 @@
         },
         "mark_style": "outline",
         "no_column_highlights_line": false,
-        "passive_warnings": false,
+        "passive_warnings": true,
         "paths": {
             "linux": [],
             "osx": [],
@@ -43,7 +48,7 @@
         },
         "rc_search_limit": 3,
         "shell_timeout": 10,
-        "show_errors_on_save": true,
+        "show_errors_on_save": false,
         "show_marks_in_minimap": true,
         "syntax_map": {
             "html (django)": "html",
