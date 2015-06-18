@@ -16,8 +16,8 @@
 		"Gist",
 		"Git",
 		"GitGutter",
-		"Grunt",
 		"HTML-CSS-JS Prettify",
+		"JSCS-Formatter",
 		"JsFormat",
 		"LESS",
 		"Package Control",
@@ -25,11 +25,13 @@
 		"PhpDoc",
 		"Pretty JSON",
 		"Sass",
+		"Seti_UI",
 		"SFTP",
 		"SideBarEnhancements",
 		"SideBarGit",
 		"SublimeLinter",
+		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
-		"Theme - Phoenix"
+		"Syntax Highlighting for Sass"
 	]
 }
