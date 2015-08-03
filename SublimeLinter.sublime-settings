@@ -1,7 +1,7 @@
 {
     "user": {
         "debug": false,
-        "delay": 0.50,
+        "delay": 0.5,
         "error_color": "D02000",
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Knob/simple/Knob - simple.gutter-theme",
         "gutter_theme_excludes": [],
