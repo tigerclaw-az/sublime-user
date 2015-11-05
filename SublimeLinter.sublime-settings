@@ -3,7 +3,7 @@
         "debug": false,
         "delay": 0.5,
         "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Knob/simple/Knob - simple.gutter-theme",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Hands/Hands.gutter-theme",
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
@@ -31,9 +31,14 @@
                 "@disable": false,
                 "args": [],
                 "excludes": []
+            },
+            "sass": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
             }
         },
-        "mark_style": "outline",
+        "mark_style": "squiggly underline",
         "no_column_highlights_line": false,
         "passive_warnings": true,
         "paths": {
