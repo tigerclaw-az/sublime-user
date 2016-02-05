@@ -1,6 +1,6 @@
 {
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Seti_UI/Scheme/Seti_monokai.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"detect_slow_plugins": true,
@@ -13,6 +13,7 @@
 	[
 		"Vintage"
 	],
+	"preview_on_click": false,
 	"tab_size": 4,
 	"theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": false,
