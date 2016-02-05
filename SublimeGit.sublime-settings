@@ -11,7 +11,7 @@
      * errors with an icon in the gutter, and different color
      * text for the offending lines.
      */
-    "git_commit_pedantic": true,
+    "git_commit_pedantic": false,
 
     /*
      * Change behavior of the status bar message
