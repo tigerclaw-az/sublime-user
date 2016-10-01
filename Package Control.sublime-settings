@@ -9,7 +9,7 @@
 		"Autoprefixer",
 		"Boxy Theme",
 		"BracketHighlighter",
-		"Color Highlighter",
+		"ColorPick",
 		"ColorPicker",
 		"DocBlockr",
 		"Emmet",
@@ -23,7 +23,6 @@
 		"jQueryDocs",
 		"JSCS-Formatter",
 		"JsFormat",
-		"MacTerminal",
 		"Package Control",
 		"PhpDoc",
 		"Pretty JSON",
@@ -38,6 +37,8 @@
 		"SublimeLinter-contrib-sass-lint",
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
-		"SublimeLinter-xmllint"
+		"SublimeLinter-xmllint",
+		"termX",
+		"Trimmer"
 	]
 }
