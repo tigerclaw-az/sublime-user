@@ -1,5 +1,7 @@
 *.cache
-*.last-run
 *.tmTheme
 *-ca-bundle
-Color\ Highlighter
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-certs/
+oscrypto-ca-bundle.crt
