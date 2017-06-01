@@ -1,3 +1,5 @@
 [
-	{ "keys": ["super+shift+h"], "command": "goto_documentation" }
+	{ "keys": ["super+shift+h"], "command": "goto_documentation" },
+
+	{ "keys": ["ctrl+alt+g"], "command": "gulp_show_panel" }
 ]

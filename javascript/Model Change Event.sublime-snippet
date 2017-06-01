@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-change${1:Property}: function(${2}) {
-	${3}
-}
-]]></content>
-	<tabTrigger>change event</tabTrigger>
-</snippet>

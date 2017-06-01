@@ -1,0 +1,28 @@
+{
+	"javatar_gp": 0,
+	"message_id": 20,
+	"project_data":
+	{
+		"2":
+		{
+			"folders":
+			[
+				{
+					"path": "git-repos/opel-aem-workspace/opel/gulp-aem-workflow"
+				},
+				{
+					"path": "git-repos/opel-aem-workspace/opel/opel-aem-ui"
+				},
+				{
+					"path": "git-repos/opel-aem-workspace/opel/opel.ui.apps"
+				},
+				{
+					"path": "git-repos/opel-aem-workspace/opel/global.ui.apps"
+				},
+				{
+					"path": "git-repos/opel-aem-workspace/opel/global.core"
+				}
+			]
+		}
+	}
+}

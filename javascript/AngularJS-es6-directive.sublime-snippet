@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+export function ${1:Name}Directive() {
+	'ngInject';
+
+	let directive = {
+		bindToController: true,
+		controller: ${2:NAME}Controller,
+		controllerAs: '${2:CTRL}',
+		replace: true,
+		restrict: 'AE',
+		scope: false,
+		templateUrl: '${4:/app/components/}${5:$2}.tpl.html'
+	};
+
+	return directive;
+}
+
+class ${2:NAME}Controller {
+	constructor(${6:\$scope, \$log}) {
+		'ngInject';
+
+		this.\$scope = \$scope;
+		this.\$log = \$log;
+		\$log.info('\$scope', \$scope);
+		this.\$scope.\$on('\$destroy', this.destroy());
+	}
+
+	destroy() {
+		return () => {
+			this.\$log.info('destory', this);
+		};
+	}
+}
+
+]]></content>
+	<tabTrigger>es6direct</tabTrigger>
+	<!-- <scope>source.JavaScriptNext</scope> -->
+</snippet>
