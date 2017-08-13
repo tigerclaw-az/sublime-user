@@ -35,7 +35,8 @@
 	"detect_slow_plugins": true,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
-	"font_size": 14.0,
+	"font_face": "Inconsolata",
+	"font_size": 16.0,
 	"gutter_theme": "Packages/Boxy Theme/linter/Boxy.gutter-theme",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -50,7 +51,7 @@
 	"preview_on_click": false,
 	"rulers":
 	[
-		90
+		100
 	],
 	"show_encoding": true,
 	"show_line_endings": true,
