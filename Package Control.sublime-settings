@@ -6,16 +6,19 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"All Autocomplete",
 		"AngularJS",
 		"AngularJS Snippets",
+		"Autocomplete Javascript with Method Signature",
 		"Boxy Theme",
 		"BracketHighlighter",
+		"Color Highlighter",
 		"ColorPick",
+		"CSS Snippets",
 		"DiffView",
 		"DocBlockr",
 		"Emmet",
 		"FileDiffs",
-		"Foundation Snippets",
 		"Gist",
 		"Gulp",
 		"HTML-CSS-JS Prettify",
@@ -27,6 +30,8 @@
 		"jQueryDocs",
 		"JSCS-Formatter",
 		"JsFormat",
+		"JSONComma",
+		"JSONLint",
 		"Lodash Completions",
 		"Package Control",
 		"PhpDoc",
@@ -45,7 +50,6 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-xmllint",
 		"Sync View Scroll",
-		"termX",
 		"Trimmer"
 	]
 }
