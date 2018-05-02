@@ -1,5 +1,7 @@
 {
 	"always_show_minimap_viewport": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_with_fields": true,
 	"binary_file_patterns":
 	[
 		"*.dds",
@@ -28,7 +30,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "solid",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"debug": false,
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -36,7 +38,7 @@
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"font_face": "Inconsolata",
-	"font_size": 16.0,
+	"font_size": 14.0,
 	"gutter_theme": "Packages/Boxy Theme/linter/Boxy.gutter-theme",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -58,5 +60,6 @@
 	"tab_size": 4,
 	"theme": "Boxy Ocean.sublime-theme",
 	"theme_tab_separator": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true
 }
